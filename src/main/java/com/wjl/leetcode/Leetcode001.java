@@ -81,14 +81,4 @@ public class Leetcode001 {
         throw new IllegalArgumentException("No two sum solution");
     }
 
-    public static void main(String[] args) {
-        int[] nums = {2, 7, 11, 15};
-        int target = 13;
-        Leetcode001 instance = new Leetcode001();
-        int[] result = instance.twoSum1(nums, target);
-        for (int i : result) {
-            System.out.println(i);
-        }
-    }
-
 }
